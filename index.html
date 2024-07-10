@@ -5,8 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="this is a product for web development" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      img {
+        width: 100px;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: red;
+      }
+
+      p {
+        color: palevioletred;
+      }
+
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      tr,
+      td {
+        border: 1px solid rebeccapurple;
+      }
+      td {
+        font-size: 1.5rem;
+        font-weight: bolder;
+      }
+    </style>
   </head>
   <body>
+    <!-- ICONS -->
+    <span class="fa-solid fa-user"></span>
+    <span class="fa-solid fa-bars"></span>
+    <span class="fa-solid fa-image"></span>
+    <span class="fa-solid fa-coud"></span>
+    <!-- ICONS -->
+     <!-- SOCIAL ICONS -->
+      <UL>
+        <li>
+          <a class="fa-brands fa-linkedin" href=""></a> 
+          <a class="fa-brands fa-facebook" href=""></a> 
+          <a class="fa-brands fa-twitter" href=""></a> 
+          <a class="fa-brands fa-google" href=""></a> 
+          <a class="fa-brands fa-slang" href=""></a> 
+          <a class="fa-brands fa-github" href=""></a> 
+          <a class="fa-solid fa-envelope" href=""></a> 
+          <a class="fa-brands fa-instagram" href=""></a> 
+          
+        </li>
+
+      </UL>
+
+    <!-- main -->
+    <section>
+      <button>click me</button>
+      <button>send info</button>
+    </section>
+    <!-- section -->
+
+    <!-- SECTION -->
     <!-- this comment in html -->
     <!-- heading tag -->
     <h1>esther</h1>
@@ -29,18 +108,336 @@
       unde omnis!
     </p>
 
-    <img src="./image/photo-1716481954482-b01dee92cc66.jpg" alt="">
-    
+    <img src="./image/photo-1716481954482-b01dee92cc66.jpg" alt="" />
+
     <form>
-        <input type="text" placeholder="enter firstname">
-        <input type="text" placeholder="enter lastname">
-        <input type="text" placeholder="enter middlename">
-        <input type="email" placeholder="enter email">
-        <input type="date" >
-        <input type="checkbox" >
-        <label for="">male</label>
-        <input type="checkbox" >
-    
+      <input type="text" placeholder="enter firstname" />
+      <input type="text" placeholder="enter lastname" />
+      <input type="text" placeholder="enter middlename" />
+      <input type="email" placeholder="enter email" />
+      <input type="date" />
+      <input type="checkbox" />
+      <label for="">male</label>
+      <input type="checkbox" />
+
+      <a
+        style="color: red; font-size: 32px; background-color: blue"
+        href="./about.html"
+        >About Page</a
+      >
+      <a
+        style="color: blueviolet; background-color: green"
+        href="./contact.html"
+        >About Page</a
+      >
+      <a
+        style="color: black; background-color: darkorchid; padding: 10px"
+        href="./project.html"
+        >About Page</a
+      >
+      <!-- link in html -->
+
+      <!-- HTML TABLE -->
     </form>
+    <h2>Admission Table</h2>
+    <table>
+      <tr>
+        <th>Matric Number</th>
+        <th>First Name</th>
+        <th>last Name</th>
+        <th>Age</th>
+        <th>Admission Number</th>
+      </tr>
+      <tr>
+        <th>001</th>
+        <th>Eze</th>
+        <th>David</th>
+        <th>17</th>
+        <th>1023</th>
+      </tr>
+      <tr>
+        <th>002</th>
+        <th>Eze</th>
+        <th>Daniel</th>
+        <th>17</th>
+        <th>1024</th>
+      </tr>
+      <tr>
+        <th>003</th>
+        <th>Eze</th>
+        <th>somtoo</th>
+        <th>26</th>
+        <th>1025</th>
+      </tr>
+      <tr>
+        <th>004</th>
+        <th>Eze</th>
+        <th>Emeka</th>
+        <th>20</th>
+        <th>1026</th>
+      </tr>
+      <tr>
+        <th>005</th>
+        <th>Eze</th>
+        <th>chizaram</th>
+        <th>17</th>
+        <th>005</th>
+      </tr>
+    </table>
+
+    <!-- HTML TABLE -->
+
+    <!-- SEMANTIC html tag -->
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section></section>
+    <aside></aside>
+    <footer></footer>
+    <!-- heading tag -->
+    <h1>Esther Eze</h1>
+    <h2></h2>
+    <ol>
+      <li>first list</li>
+      <li>second list</li>
+      <li>third list</li>
+      <li>fourth list</li>
+    </ol>
+
+    <!-- classwork -->
+    <table>
+      <tr>
+        <td>Qauntity</td>
+        <td>Goods Description</td>
+        <td>Amount</td>
+        <td>Total Amount</td>
+        <td>Date</td>
+        <td>customer signature</td>
+        <td>customer Name</td>
+        <td>Cashers name</td>
+        <td>Casher signature</td>
+      </tr>
+      <tr>
+        <th>10</th>
+        <th>Aloevera gel</th>
+        <th>4,000</th>
+        <th>40,000</th>
+        <th>17/06/2024</th>
+        <th>sign adae</th>
+        <th>miss lilian</th>
+        <th>eze Esther</th>
+        <th>sign bbbk</th>
+      </tr>
+      <tr>
+        <th>5</th>
+        <th>Body wash</th>
+        <th>7,000</th>
+        <th>35,000</th>
+        <th>18/06/2024</th>
+        <th>sign</th>
+        <th>Mr micheal</th>
+        <th>Eze esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>50</th>
+        <th>Body Butter Cream</th>
+        <th>9,000</th>
+        <th>450,000</th>
+        <th>19/06/2024</th>
+        <th>sign</th>
+        <th>Mrs Oluchukwu</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>Aloevera gel</th>
+        <th>4,000</th>
+        <th>8,000</th>
+        <th>20/06/2024</th>
+        <th>sign</th>
+        <th>lke</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>8</th>
+        <th>Body butter cream</th>
+        <th>9,000</th>
+        <th>72,000</th>
+        <th>21/06/2024</th>
+        <th>sign</th>
+        <th>Olamide</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>100</th>
+        <th>facial wash</th>
+        <th>2,000</th>
+        <th>200,000</th>
+        <th>22/06/2024</th>
+        <th>sign</th>
+        <th>Mariam</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>500</th>
+        <th>Facial wash</th>
+        <th>2,000</th>
+        <th>500,000</th>
+        <th>23/06/2024</th>
+        <th>sign</th>
+        <th>living root store</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>16</th>
+        <th>Body wash</th>
+        <th>7,000</th>
+        <th>112,000</th>
+        <th>24/06/2024</th>
+        <th>sign</th>
+        <th>uju</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>BodyButter Cream</th>
+        <th>9,000</th>
+        <th>9,000</th>
+        <th>25/06/2024</th>
+        <th>sign</th>
+        <th>Mirabel</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>20</th>
+        <th>Aloevera gel</th>
+        <th>4,000</th>
+        <th>80,000</th>
+        <th>26/06/2024</th>
+        <th>sign</th>
+        <th>John</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>4</th>
+        <th>Body wash</th>
+        <th>7,000</th>
+        <th>28,000</th>
+        <th>27/06/2024</th>
+        <th>sign</th>
+        <th>Jimoh</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>105</th>
+        <th>Facial wash</th>
+        <th>2,000</th>
+        <th>210,000</th>
+        <th>29/06/2024</th>
+        <th>sign</th>
+        <th>Nick</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>20</th>
+        <th>Aloevera gel</th>
+        <th>4,000</th>
+        <th>80,000</th>
+        <th>30/06/2024</th>
+        <th>sign</th>
+        <th>Jay</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>10</th>
+        <th>Body butter cream</th>
+        <th>9,000</th>
+        <th>90,000</th>
+        <th>Date01/07/2024</th>
+        <th>sign</th>
+        <th>vivan</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>15</th>
+        <th>Facial wash</th>
+        <th>2,000</th>
+        <th>30,000</th>
+        <th>02/07/2024</th>
+        <th>sign</th>
+        <th>Magret</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>20</th>
+        <th>Aloevera gel</th>
+        <th>4,000</th>
+        <th>80,000</th>
+        <th>03/07/2024</th>
+        <th>sign</th>
+        <th>mike</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>Facial wash</th>
+        <th>2,000t</th>
+        <th>4,000</th>
+        <th>04/07/2024</th>
+        <th>sign</th>
+        <th>lilian</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>5</th>
+        <th>Body butter cream</th>
+        <th>9,000</th>
+        <th>45,000</th>
+        <th>05/07/2024</th>
+        <th>sign</th>
+        <th>neo</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <th>Aloevera gel</th>
+        <th>4,000</th>
+        <th>4,000</th>
+        <th>06/07/2024</th>
+        <th>sign</th>
+        <th>vee</th>
+        <th>Eze Esther</th>
+        <th>sign</th>
+      </tr>
+      <tr>
+        <th>2</th>
+        <th>Facial wash</th>
+        <th>2,000</th>
+        <th>4,000</th>
+        <th>07/07/2024</th>
+        <th>sign</th>
+        <th>leo</th>
+        <th>Boluwatife</th>
+        <th>sign</th>
+      </tr>
+    </table>
+    <!-- classwork -->
   </body>
 </html>
